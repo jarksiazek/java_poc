@@ -45,14 +45,6 @@
   }
   BinaryOperator<Long> addLongs = (x, y) -> x + y;
    ```
-* Predicate
-   ```java
-  public interface Predicate<T> {
-      public boolean test(T t);
-  }
-  Predicate<Person> test = person -> person.getAge() > 20;
-
-  ``` 
  ### Interfaces for primitive types:
  * IntPredicate
  * IntFunction
